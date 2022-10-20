@@ -1,0 +1,39 @@
+.library-page {
+  width: var(--main-width);
+  margin: auto auto;
+}
+
+.library-sort-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 60px;
+}
+
+.library-sort-bar__item {
+  width: 33.3%;
+  height: 100%;
+  color: var(--font-color);
+  font-size: 12px;
+  opacity: 0.4;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.library-sort-bar__item-active {
+  font-size: 14px;
+  opacity: 1;
+  color: var(--font-color);
+  font-weight: 600;
+}
+
+.library-sort-bar__item-active span {
+  width: 120%;
+  text-align: center;
+  border-bottom: 3px solid var(--border-color);
+  padding-bottom: 5px;
+}

@@ -1,0 +1,127 @@
+.add-music {
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--font-color);
+}
+
+.add-music__input {
+  height: 30px;
+  width: 30%;
+  min-height: inherit;
+  border: none;
+  padding-left: 5px;
+  border-radius: 5px;
+  color: var(--font-color);
+  font-size: 12px;
+}
+
+.add-music__input::placeholder {
+  color: #ffffff4a;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.add-music__input:focus {
+  outline: 1px solid #1c1f276f;
+}
+
+.add-music__item {
+  cursor: pointer;
+  margin-left: 15px;
+}
+.add-music__item > input {
+  display: none;
+  z-index: 9999;
+}
+
+.add-music__item__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  background-color: var(--music-card-bg);
+  border-radius: 50px;
+}
+
+.add-music__item__image > img {
+  height: auto;
+  width: 18px;
+}
+
+.add-image__select-file {
+  margin-left: -5px;
+  margin-right: 8px;
+}
+
+.create-button {
+  font-size: 13px;
+  margin-left: 30%;
+}
+
+
+.selected-images {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+
+.selected-images > div > img {
+  position: relative;
+  height: 50px;
+  width: auto;
+  padding: 2px;
+  border-radius: 10px;
+  border: 1px solid rgba(238, 238, 238, 0.242);
+  margin: 4px;
+}
+.selected-images > div{
+  position: relative;
+}
+.selected-images-container span {
+  color: var(--font-color);
+  font-size: 11px;
+}
+
+.selected-images__delete-button {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.selected-images__delete-button span{
+  padding: 6px;
+  color: red;
+  font-size: 8px;
+  background-color:var(--music-card-bg);
+  border-radius: 10px;
+  width: 5px;
+  height: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.4;
+  z-index: 9999;
+  box-sizing: content-box;
+}
+
+.selected-images__delete-button .activable-button:hover {
+  opacity: 1;
+}
+
+.select-add-item{
+  display: flex;
+  justify-content: end;
+  margin-bottom: 3px;
+}
+
+.select-add-item span{
+  color: var(--font-color);
+  font-size: 11px;
+  cursor: pointer;
+  opacity: 0.5;
+}

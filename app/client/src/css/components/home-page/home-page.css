@@ -1,0 +1,4 @@
+.page{
+    width: calc(var(--main-width) + 200px);
+  margin: 20px auto;
+}
