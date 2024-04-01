@@ -1,5 +1,2 @@
 # Sumo
  final project
-
-
-
